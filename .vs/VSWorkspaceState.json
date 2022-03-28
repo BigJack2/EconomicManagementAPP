@@ -11,6 +11,6 @@
     "\\EconomicManagementAPP\\Views\\AccountTypes",
     "\\EconomicManagementAPP\\Views\\Home"
   ],
-  "SelectedNode": "\\EconomicManagementAPP.sln",
+  "SelectedNode": "\\EconomicManagementAPP\\Controllers\\CategoriesController.cs",
   "PreviewInSolutionExplorer": false
 }

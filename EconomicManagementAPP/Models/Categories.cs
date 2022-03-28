@@ -4,17 +4,16 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EconomicManagementAPP.Models
 {
-    public class Accounts
+    public class Categories
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "{0} is required")]
         [FirstCapitalLetter]
-        [Remote(action: "VerificaryAccount", controller: "Accounts")]//Activamos la validacion se dispara peticion http hacia el back 
+        [Remote(action: "VerificaryCategorie", controller: "Categories")]
         public string Name { get; set; }
         [Required(ErrorMessage = "{0} is required")]
-        public int AccountTypeId { get; set; }
+        public int OperationTypeId { get; set; }
         [Required(ErrorMessage = "{0} is required")]
-        public string Balance { get; set; }        
-        public string Description { get; set; }
+        public int UserId { get; set; }
     }
 }

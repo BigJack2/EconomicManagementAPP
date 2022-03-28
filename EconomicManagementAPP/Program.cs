@@ -8,6 +8,8 @@ builder.Services.AddTransient<IRepositorieAccountTypes, RepositorieAccountTypes>
 builder.Services.AddTransient<IRepositorieUsers, RepositorieUsers>();
 builder.Services.AddTransient<IRepositorieOperationTypes, RepositorieOperationTypes>();
 builder.Services.AddTransient<IRepositorieAccounts, RepositorieAccounts>();
+builder.Services.AddTransient<IRepositorieCategories, RepositorieCategories>();
+builder.Services.AddTransient<IRepositorieTransactions, RepositorieTransactions>();
 
 var app = builder.Build();
 
